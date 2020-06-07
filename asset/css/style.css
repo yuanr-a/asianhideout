@@ -1,0 +1,14 @@
+.link-animate > .la-image {
+	transition: .2s;
+}
+.link-animate > .la-arrow {
+	transition: .2s;
+}
+.link-animate:hover > .la-image {
+	transition: .2s;
+	transform: translateY(-.25vw);
+}
+.link-animate:hover > .la-arrow {
+	transition: .2s;
+	transform: translateX(.25vw);
+}
